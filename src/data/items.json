@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "name": "iMac pink",
+      "price": 1619,
+      "imgUrl": "/imgs/imac-rosa.jpeg"
+    },
+    {
+      "id": 2,
+      "name": "iPad mini",
+      "price": 649.99,
+      "imgUrl": "/imgs/ipad-mini-finish-unselect-gallery-1-202207.jpeg"
+    },
+    {
+      "id": 3,
+      "name": "Macbook Air ",
+      "price": 1439,
+      "imgUrl": "/imgs/-apple-macbook-air-2023-apple-m2-8gb-256gb-ssd-gpu-deca-core-153-medianoche.webp"
+    },
+    {
+      "id": 4,
+      "name": "AirPods",
+      "price": 209,
+      "imgUrl": "/imgs/airpods.jpeg"
+    },
+    {
+      "id": 5,
+      "name": "iPhone 15 Pro",
+      "price": 1349,
+      "imgUrl": "/imgs/iphone-15.jpeg"
+    },
+    {
+      "id": 5,
+      "name": "Apple Watch Ultra 2",
+      "price": 899,
+      "imgUrl": "/imgs/AppleWatchUltra2.jpeg"
+    }
+  ]
