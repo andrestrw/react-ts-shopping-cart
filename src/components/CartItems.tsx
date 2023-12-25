@@ -20,7 +20,7 @@ export function CartItem({ id, quantity }: CartItemProps) {
         style={{ width: "125px", height: "75px", objectFit: "cover" }}
       />
       <div className="me-auto">
-        <div>
+        <div className="d-flex">
           {item.name}{" "}
           {quantity > 1 && (
             <span className="text-muted" style={{ fontSize: ".65rem" }}>
@@ -28,10 +28,11 @@ export function CartItem({ id, quantity }: CartItemProps) {
             </span>
           )}
         </div>
+        <div className="text-muted" style={{ fontSize: ".75rem" }}>
+          {formatCurrency(item.price)}
+        </div>
       </div>
-      <div className="text-muted" style={{ fontSize: ".75rem" }}>
-        {formatCurrency(item.price)}
-      </div>
+
       <div>{formatCurrency(item.price * quantity)}</div>
       <Button
         variant="outline-danger"
