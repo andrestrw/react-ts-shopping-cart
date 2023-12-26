@@ -20,7 +20,10 @@ export function CartItem({ id, quantity }: CartItemProps) {
         style={{ width: "125px", height: "75px", objectFit: "scale-down" }}
       />
       <div className="me-auto">
-        <div className="d-flex">
+        <div
+          className="d-flex align-items-center gap-2  "
+          style={{ width: "83px" }}
+        >
           {item.name}{" "}
           {quantity > 1 && (
             <span className="text-muted" style={{ fontSize: ".65rem" }}>
